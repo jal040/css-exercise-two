@@ -1,6 +1,8 @@
+/* Changing the font-size here will change all font sizes. */
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #fafafa;
+  color: #000080;
+  font-size: 18px;
 }
 
 nav {
@@ -8,6 +10,23 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.17em;
+  line-height: 32px;
+}
+
+h4 {
+  font-size: 1.12em;
 }
 
 .logo {
@@ -46,7 +65,16 @@ article {
   padding-top: 100px;
 }
 
+a:link { color:#FFFFFF; text-decoration: none; } /* unvisited */
+a:visited { color:#FFFFFF; text-decoration: none; } /* visited */
+a:hover { color:#0070BC; text-decoration: underline; } /* mouse over */
+a:active { color:#FFFFFF; text-decoration: underline; } /* selected */
+
 .container {
   margin: 0 auto;
-  width: 50%;
+  width: 70%;
+}
+
+.story-text{
+  line-height: 28px;
 }
